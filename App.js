@@ -67,33 +67,33 @@ const App = () => {
                 />
               </View>
             </View>
-          </View>
-          <Text style={styles.titulo}>Hospedajes en Los Angeles</Text>
-          <View style={styles.listado}>
-            <View style={styles.listadoItem}>
-              <Image
-                source={require('./assets/img/hospedaje1.jpg')}
-                style={styles.mejores}
-              />
-              <Text> Casa 3 Recamaras</Text>
-            </View>
-            <View style={styles.listadoItem}>
-              <Image
-                source={require('./assets/img/hospedaje2.jpg')}
-                style={styles.mejores}
-              />
-            </View>
-            <View style={styles.listadoItem}>
-              <Image
-                source={require('./assets/img/hospedaje3.jpg')}
-                style={styles.mejores}
-              />
-            </View>
-            <View style={styles.listadoItem}>
-              <Image
-                source={require('./assets/img/hospedaje4.jpg')}
-                style={styles.mejores}
-              />
+            <Text style={styles.titulo}>Hospedajes en Los Angeles</Text>
+            <View style={styles.listado}>
+              <View style={styles.listadoItem}>
+                <Image
+                  source={require('./assets/img/hospedaje1.jpg')}
+                  style={styles.mejores}
+                />
+                <Text> Casa 3 Recamaras</Text>
+              </View>
+              <View style={styles.listadoItem}>
+                <Image
+                  source={require('./assets/img/hospedaje2.jpg')}
+                  style={styles.mejores}
+                />
+              </View>
+              <View style={styles.listadoItem}>
+                <Image
+                  source={require('./assets/img/hospedaje3.jpg')}
+                  style={styles.mejores}
+                />
+              </View>
+              <View style={styles.listadoItem}>
+                <Image
+                  source={require('./assets/img/hospedaje4.jpg')}
+                  style={styles.mejores}
+                />
+              </View>
             </View>
           </View>
         </View>
